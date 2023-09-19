@@ -7,7 +7,8 @@ This is me.I share about my skills, educational background, hobbies and my favou
 ******
 
 ## SCREENSHOTS
-- 
+- [Screenshot from 2023-09-19 14-06-24](https://github.com/mwangisam203/my-wesbite/assets/144256692/f0a0658c-ea09-45d8-b2f5-ffc03d15a8f0)
+
 - 
 
 
