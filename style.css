@@ -3,6 +3,13 @@ body {
     background-color: hsl(216, 25%, 63%);
 }
 
+nav{
+justify-content: space-between;
+display: flex;
+flex-direction: row;
+
+
+}
 header h1 {
     text-align: center;
     font-size: 50px;
