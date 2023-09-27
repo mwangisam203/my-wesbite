@@ -1,21 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(216, 25%, 63%);
 }
 
-nav{
-justify-content: space-between;
+nav ul {
+    padding-top: 10px;
+justify-content: space-around;
 display: flex;
-flex-direction: row;
-
-
+font-size: 30px;
+color: antiquewhite;
 }
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    height: 150px;
+    margin-top: -150px;
+    
+}
+
 header h1 {
+    padding-top: 10px;
     text-align: center;
     font-size: 50px;
-    color: rgb(100, 165, 16);
-    background-color: aqua;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mainn{
+     margin-top: 150px ;
+     width:100%;
+     height: 1200px;
 }
 
 #Biography h2 {
@@ -28,6 +49,7 @@ header h1 {
 #Biography p {
     text-align: justify;
     margin: 10px;
+    padding-top: 50px;
     padding-bottom: 10px;
     font-size: x-large;
     font-weight: 500px;
@@ -43,7 +65,7 @@ header h1 {
     text-align:justify;
     margin: 10px;
     font-size: x-large;
-
+    padding-top: 50px;
 }
 
 #Hobbies ul {
@@ -61,10 +83,21 @@ header h1 {
     text-align: justify;
     margin: 10px;
     font-size: x-large;
+    padding-top: 50px;
 }
 
 #Skills ol {
     text-align: justify;
     font-size: x-large;
     margin: 10px;
+}
+footer {
+    padding-top: 10px;
+    background-color: #060101;
+    color: #fff;
+    text-align: center;
+    position:sticky;
+    width: 100%;
+    height: 100px;
+    
 }
